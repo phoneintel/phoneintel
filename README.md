@@ -1,6 +1,14 @@
 
 # PhoneIntel - Transforming Phone Number Intelligence
 
+[![PyPI version](https://img.shields.io/pypi/v/phoneintel.svg)](https://pypi.org/project/phoneintel/)
+[![GitHub issues](https://img.shields.io/github/issues/phoneintel/phoneintel.svg)](https://GitHub.com/phoneintel/phoneintel/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/phoneintel/phoneintel.svg)](https://GitHub.com/phoneintel/phoneintel/pull/)
+[![GitHub forks](https://img.shields.io/github/forks/phoneintel/phoneintel.svg?style=social)](https://github.com/phoneintel/phoneintel/network/)
+[![GitHub license](https://img.shields.io/github/license/phoneintel/phoneintel.svg)](https://github.com/phoneintel/phoneintel/blob/main/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/phoneintel/phoneintel.svg)](https://GitHub.com/phoneintel/phoneintel/graphs/contributors/)
+[![Language: Python](https://img.shields.io/badge/Language-Python-blue.svg)](https://www.python.org/)
+
 ### Introduction
 
 Welcome to **PhoneIntel**, your ultimate open-source solution for harnessing the power of phone number intelligence. Designed for OSINT enthusiasts and professionals, PhoneIntel is an advanced tool that enables you to search and analyze comprehensive information about phone numbers, empowering you with insights at your fingertips.
@@ -61,6 +69,10 @@ phoneintel "+34613814500" --dorks --type social_networks
 ```bash
 phoneintel --info "+34613814500"
 ```
+
+### Disclaimer
+
+PhoneIntel is intended for educational and research purposes only. It is designed to perform basic scans and provide initial insights into phone numbers. Always ensure you have proper authorization before using any tool for security assessments. Misuse of this tool for unauthorized or illegal activities is strictly prohibited. Use responsibly and within the bounds of applicable laws and regulations.
 
 ### Comprehensive Documentation
 
