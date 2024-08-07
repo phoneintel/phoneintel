@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='phoneintel',
-    version='1.0.8',
+    version='1.0.9',
     description='A tool for processing phone numbers with OSINT capabilities.',
     author='PhoneIntel',
     author_email='phoneintel@proton.me',
