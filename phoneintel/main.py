@@ -36,7 +36,7 @@ def run_phoneinteltext_path(input_path, map_true: bool = False):
         for number in numbers:
             try:
                 separator()
-                init = PhoneIntel(number)  # Cambiado de phone a number
+                init = PhoneIntel(number) 
 
                 if map_true and "Unknown" not in init.area:
                     separator()
@@ -57,7 +57,7 @@ def run_phoneinteltext_string(string, map_true: bool = False):
         for number in numbers:
             try:
                 separator()
-                init = PhoneIntel(number)  # Cambiado de phone a number
+                init = PhoneIntel(number) 
 
                 if map_true and "Unknown" not in init.area:
                     separator()
@@ -91,7 +91,7 @@ def run_phoneinteldorking(phone, type, map_true: bool = False):
         print(f"{Fore.RED}Error: {str(e)}{Style.RESET_ALL}")
 
 def install_dependencies():
-    # Lista de dependencias
+
     dependencies = {
         "colorama": "0.4.6",
         "phonenumbers": "8.13.42",
@@ -99,7 +99,7 @@ def install_dependencies():
         "beautifulsoup4": "4.12.3"
     }
 
-    # Preguntar al usuario si quiere instalar las dependencias
+
     print("Required Dependencies:")
     for k, v in dependencies.items():
         print(k)
@@ -110,7 +110,6 @@ def install_dependencies():
         print("Installation of dependencies aborted by user.")
         return False
 
-    # Comando base de pip
     pip_command = [sys.executable, "-m", "pip", "install", "--upgrade", "pip"]
     
     print(f"Updating pip...")
@@ -120,17 +119,17 @@ def install_dependencies():
         print(f"Error updating pip: {e}")
         sys.exit(1)
 
-    # Comando para instalar paquetes
+
     pip_command = [sys.executable, "-m", "pip", "install"]
     
     print(f"Installing pip packages...")
     for package, version in dependencies.items():
         try:
-            # Intentar importar el paquete
+
             __import__(package)
             print(f"{package} is already installed.")
         except ImportError:
-            # Si el paquete no está instalado, instalarlo
+
             install_command = pip_command + [f"{package}=={version}"]
             try:
                 print(f"Installing {package}...")
@@ -213,38 +212,38 @@ def main():
         description="PhoneIntel Argument Processor",
         add_help=False
     )
-    # Grupo de argumentos mutuamente excluyentes
+
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument('--info', action='store_true', help='Execute info command')
     group.add_argument('--search', action='store_true', help='Execute search')
     group.add_argument('--dorks', action='store_true', help='Execute dorks command')
     group.add_argument('-h', '--help', action='store_true', help='Show help message and exit')
-    # Argumento posicional opcional para el número de teléfono
+
     parser.add_argument('phone', nargs='?', type=str, help='Phone number to be processed')
-    # Argumentos adicionales para --search
+
     search_group = parser.add_argument_group('search_group', 'Arguments for search')
     search_group.add_argument('--input', type=str, help='Input file for search')
     search_group.add_argument('--string', type=str, help='Search string')
-    # Argumentos adicionales para --dorks
+
     dorks_group = parser.add_argument_group('dorks_group', 'Arguments for dorks')
     dorks_group.add_argument('--type', type=str, help='Type of dorks')
-    # Añadir el argumento --map
+
     parser.add_argument('--map', action='store_true', help='Execute map function')
-    # Parsear los argumentos
+
     args = parser.parse_args()
     
     
     if args.help:
         CustomHelp()
         return
-    # Validación de argumentos
+
     if args.search and not (args.input or args.string or args.phone):
         parser.error('--search requires --input, --string, or phone number')
     if args.dorks and not args.type:
         parser.error('--dorks requires --type')
     if args.dorks and args.type.strip().lower() not in DORKS_TYPES:
         parser.error(f'Invalid dork type: {args.type}. Valid types are: {", ".join(DORKS_TYPES)}')
-    # Procesar los argumentos
+
     phone_number = args.phone
     
     if not args.search:
