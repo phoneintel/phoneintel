@@ -1,0 +1,5 @@
+PhoneIntel is intended for educational and research purposes only.
+It is designed to perform basic scans and provide initial insights into phone numbers. 
+Always ensure you have proper authorization before using any tool for security assessments.
+Misuse of this tool for unauthorized or illegal activities is strictly prohibited.
+Use responsibly and within the bounds of applicable laws and regulations.

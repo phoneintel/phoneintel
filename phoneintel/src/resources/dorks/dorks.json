@@ -1,0 +1,108 @@
+{
+    "social_networks": [
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"profile\" OR \"contact\") site:x.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"profile\" OR \"contact\") site:instagram.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"profile\" OR \"contact\") site:linkedin.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"profile\" OR \"contact\") site:tiktok.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"profile\" OR \"contact\") site:facebook.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"profile\" OR \"contact\") site:pinterest.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"profile\" OR \"contact\") site:reddit.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"profile\" OR \"contact\") site:quora.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"profile\" OR \"contact\") site:vk.com"
+    ],
+    "forums": [
+        "(\"{phone}\" OR \"{national_phone}\")) AND (\"discussion\" OR \"thread\") site:4chan.org",
+        "(\"{phone}\" OR \"{national_phone}\")) AND (\"discussion\" OR \"thread\") site:8kun.top",
+        "(\"{phone}\" OR \"{national_phone}\")) AND (\"discussion\" OR \"thread\") site:forums.red",
+        "(\"{phone}\" OR \"{national_phone}\")) AND (\"discussion\" OR \"thread\") site:whirlpool.net.au",
+        "(\"{phone}\" OR \"{national_phone}\")) AND (\"discussion\" OR \"thread\") site:mybroadband.co.za",
+        "(\"{phone}\" OR \"{national_phone}\")) AND (\"discussion\" OR \"thread\") site:neogaf.com",
+        "(\"{phone}\" OR \"{national_phone}\")) AND (\"discussion\" OR \"thread\") site:resetera.com",
+        "(\"{phone}\" OR \"{national_phone}\")) AND (\"discussion\" OR \"thread\") site:shacknews.com"
+    ],
+    "classifieds": [
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"sale\" OR \"offer\") site:craigslist.org",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"sale\" OR \"offer\") site:gumtree.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"sale\" OR \"offer\") site:olx.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"sale\" OR \"offer\") site:locanto.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"sale\" OR \"offer\") site:offerup.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"sale\" OR \"offer\") site:kijiji.ca",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"sale\" OR \"offer\") site:letgo.com"
+    ],
+    "ecommerce": [
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"review\" OR \"contact\") site:amazon.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"review\" OR \"contact\") site:ebay.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"review\" OR \"contact\") site:etsy.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"review\" OR \"contact\") site:alibaba.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"review\" OR \"contact\") site:flipkart.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"review\" OR \"contact\") site:mercadolibre.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"review\" OR \"contact\") site:rakuten.com"
+    ],
+    "news": [
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"article\" OR \"interview\") site:cnn.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"article\" OR \"interview\") site:bbc.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"article\" OR \"interview\") site:nytimes.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"article\" OR \"interview\") site:theguardian.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"article\" OR \"interview\") site:washingtonpost.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"article\" OR \"interview\") site:forbes.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"article\" OR \"interview\") site:bloomberg.com"
+    ],
+    "blogs": [
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"blog\" OR \"post\") site:wordpress.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"blog\" OR \"post\") site:blogspot.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"blog\" OR \"post\") site:medium.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"blog\" OR \"post\") site:tumblr.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"blog\" OR \"post\") site:wix.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"blog\" OR \"post\") site:squarespace.com"
+    ],
+    "job_sites": [
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"resume\" OR \"CV\") site:indeed.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"resume\" OR \"CV\") site:glassdoor.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"resume\" OR \"CV\") site:monster.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"resume\" OR \"CV\") site:careerbuilder.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"resume\" OR \"CV\") site:simplyhired.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND (\"resume\" OR \"CV\") site:ziprecruiter.com"
+    ],
+    "pastes": [
+        "(\"{phone}\" OR \"{national_phone}\") AND site:pastebin.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND site:hastebin.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND site:justpaste.it",
+        "(\"{phone}\" OR \"{national_phone}\") AND site:ghostbin.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND site:dpaste.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND site:paste2.org",
+        "(\"{phone}\" OR \"{national_phone}\") AND site:controlc.com",
+        "(\"{phone}\" OR \"{national_phone}\") AND site:paste.ee"
+    ],
+
+    "reputation": [
+
+        "site:whosenumber.info intext:\"{phone}\" intitle:\"who called\"",
+        "intitle\"Phone Fraud\" intext:\"{national_phone}\" | intext:\"{phone}\"",
+        "site:findwhocallsme.com intext:\"{phone}\" | intext:\"{national_phone}\"",
+        "site:yellowpages.ca intext:\"{phone}\"",
+        "site:phonenumbers.ie intext:\"{phone}\"",
+        "site:who-calledme.com intext:\"{phone}\"",
+        "site:usphonesearch.net intext:\"{phone}\"",
+        "site:quinumero.info intext:\"{phone}\" | intext:\"{national_phone}\"",
+        "site:uk.popularphotolook.com inurl:\"{national_phone}\""
+
+
+    ],
+
+    "phone_directories": [
+        "(\"{phone}\" OR \"{national_phone}\") site:411.com",
+        "(\"{phone}\" OR \"{national_phone}\") site:whitepages.com",
+        "(\"{phone}\" OR \"{national_phone}\") site:yellowpages.com",
+        "(\"{phone}\" OR \"{national_phone}\") site:yp.com",
+        "(\"{phone}\" OR \"{national_phone}\") site:numberway.com"
+    ],
+
+
+    "people_search": [
+        "(\"{phone}\" OR \"{national_phone}\") site:spokeo.com",
+        "(\"{phone}\" OR \"{national_phone}\") site:beenverified.com",
+        "(\"{phone}\" OR \"{national_phone}\") site:peoplefinder.com",
+        "(\"{phone}\" OR \"{national_phone}\") site:intelius.com",
+        "(\"{phone}\" OR \"{national_phone}\") site:instantcheckmate.com"
+    ]
+}
