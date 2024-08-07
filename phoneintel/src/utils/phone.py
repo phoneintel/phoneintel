@@ -99,7 +99,7 @@ class PhoneIntel:
 
                         # Ejemplo para Argentina
                         for country in countries:
-                            if country['cca2'] == str(country_details['Top Level Domain']).upper():  # 'AR' es el código ISO del país (Argentina)
+                            if country['cca2'] == str(country_details['Top Level Domain']).upper(): 
                                 languages = country.get('languages', {})
                                 print(f"{SUB_KEY_STYLE}    - Languages: {VALUE_STYLE}")
                                 for code, name in languages.items():
