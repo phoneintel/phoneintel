@@ -143,9 +143,11 @@ class PhoneIntel:
     def __req_coordinates(self):
         if not 'Unknown' in self.area:
             
-            
-            self.__api = f"https://api.bigdatacloud.net/data/reverse-geocode-client?localityLanguage=en&locality={quote(self.__state)}&countryName={quote(self.__country)}"
-            self.__make_req()
+            try:
+                self.__api = f"https://api.bigdatacloud.net/data/reverse-geocode-client?localityLanguage=en&locality={quote(self.area)}&countryName={quote(self.country)}"
+                self.__make_req()
+            except:
+                self.__load_coordinates_from_json()
         else:
             self.__load_coordinates_from_json()
             
