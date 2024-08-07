@@ -26,7 +26,8 @@ class PhoneIntel:
         
         self.__parse_number()
         self.__get_geolocation()
-        self.__get_carrier()
+        if not self.carrier_name:
+            self.__get_carrier()
         self.__print_info()
     
     def __parse_number(self) -> None:
@@ -41,8 +42,37 @@ class PhoneIntel:
     def __get_geolocation(self) -> None:
         if self.parsed_number:
             try:
-                self.area = geocoder.description_for_number(self.parsed_number, self.lang) or f"{ERROR_STYLE}Unknown{Style.RESET_ALL}"
-                self.country = geocoder.country_name_for_number(self.parsed_number, self.lang) or f"{ERROR_STYLE}Unknown{Style.RESET_ALL}"
+                if str(self.parsed_number.country_code).strip() == '61':
+                    self.country = "Australia"
+                    
+                    
+                    if is_connected():
+                        
+                        try:
+                            carrier_area = TellowsScraper(self.phone_number).get_info_australia()
+
+                            if str(self.parsed_number.national_number).strip().startswith("4") or str(self.parsed_number.national_number).strip().startswith("04"):
+
+                                self.carrier_name = carrier_area
+                                self.area = f"{ERROR_STYLE}Unknown{Style.RESET_ALL}"
+                            else:
+
+                                self.area = carrier_area
+
+
+                        except:
+                            self.area = f"{ERROR_STYLE}Unknown{Style.RESET_ALL}"
+                        
+
+
+                    else:
+                        self.area = f"{ERROR_STYLE}Unknown{Style.RESET_ALL}"
+
+
+                else:
+
+                    self.area = geocoder.description_for_number(self.parsed_number, self.lang) or f"{ERROR_STYLE}Unknown{Style.RESET_ALL}"
+                    self.country = geocoder.country_name_for_number(self.parsed_number, self.lang) or f"{ERROR_STYLE}Unknown{Style.RESET_ALL}"
             except Exception as e:
                 print(f"{Fore.RED}[ERROR] Failed to get geolocation information: {e}")
                 self.area = f"{ERROR_STYLE}Unknown{Style.RESET_ALL}"
@@ -80,7 +110,7 @@ class PhoneIntel:
                 print(f"{SUB_KEY_STYLE}    - Top Level Domain: {VALUE_STYLE}{country_details['Top Level Domain']}")
                 print(f"{SUB_KEY_STYLE}    - Continent: {VALUE_STYLE}{country_details['Continent']}")
                 print(f"{SUB_KEY_STYLE}    - Capital: {VALUE_STYLE}{country_details['Capital']}")
-                print(f"{SUB_KEY_STYLE}    - Time Zone in Capital: {VALUE_STYLE}{time_zone}")
+                print(f"{SUB_KEY_STYLE}    - Time Zone: {VALUE_STYLE}{time_zone}")
                 print(f"{SUB_KEY_STYLE}    - Currency: {VALUE_STYLE}{country_details['Currency']}")
                 
                 
