@@ -111,10 +111,10 @@ class PhoneIntel:
                         
                         print(f"{SUB_KEY_STYLE}[-] TELLOWS DETAILS:")
                         init_tellows = TellowsScraper(f"+{self.country_code}{self.national_number}").get_info()
-                        print(f"{SUB_KEY_STYLE}    - Tellows Score: {VALUE_STYLE}{init_tellows["score"]}")
+                        print(f"{SUB_KEY_STYLE}    - Tellows Score: {VALUE_STYLE}{init_tellows['score']}")
                         type_of_call = init_tellows["type_of_call"]
                         if type_of_call != "N/A":
-                            print(f"{SUB_KEY_STYLE}    - Type of Call: {VALUE_STYLE}{init_tellows["type_of_call"]}")
+                            print(f"{SUB_KEY_STYLE}    - Type of Call: {VALUE_STYLE}{init_tellows['type_of_call']}")
                         else:
                             print(f"{SUB_KEY_STYLE}    - Type of Call: {ERROR_STYLE}{'Unknown'}")
                     except:
