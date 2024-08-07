@@ -92,12 +92,12 @@ class PhoneIntel:
                         print(f"{SUB_KEY_STYLE}    - Longitude: {VALUE_STYLE}{self.__lon}")
                     except:
                         pass
-                    # Obtener datos de todos los países
+
                     try:
                         response = requests.get('https://restcountries.com/v3.1/all', timeout=5)
                         countries = response.json()
 
-                        # Ejemplo para Argentina
+
                         for country in countries:
                             if country['cca2'] == str(country_details['Top Level Domain']).upper(): 
                                 languages = country.get('languages', {})
