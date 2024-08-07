@@ -1,0 +1,241 @@
+Country Name;Top Level Domain;Continent;Capital;Time Zone in Capital;Currency
+Afghanistan;af;Asia;Kabul;Asia/Kabul;Afghani
+Albania;al;Europe;Tirana;Europe/Tirane;Lek
+Algeria;dz;Africa;Algiers;Africa/Algiers;Dinar
+American Samoa;as;Oceania;Pago Pago;Pacific/Pago_Pago;Dollar
+Andorra;ad;Europe;Andorra la Vella;Europe/Andorra;Euro
+Angola;ao;Africa;Luanda;Africa/Lagos;Kwanza
+Anguilla;ai;North America;The Valley;America/Port_of_Spain;Dollar
+Antarctica;aq;Antarctica;;Antarctica/Troll;
+Antigua and Barbuda;ag;North America;St. John's;America/Antigua;Dollar
+Argentina;ar;South America;Buenos Aires;America/Argentina/Buenos_Aires;Peso Argentino
+Armenia;am;Asia;Yerevan;Asia/Yerevan;Dram
+Aruba;aw;North America;Oranjestad;America/Curacao;Guilder
+Australia;au;Oceania;Canberra;Australia/Sydney;Dollar
+Austria;at;Europe;Vienna;Europe/Vienna;Euro
+Azerbaijan;az;Asia;Baku;Asia/Baku;Manat
+Bahamas;bs;North America;Nassau;America/Nassau;Dollar
+Bahrain;bh;Asia;Manama;Asia/Bahrain;Dinar
+Bangladesh;bd;Asia;Dhaka;Asia/Dhaka;Taka
+Barbados;bb;North America;Bridgetown;America/Barbados;Dollar
+Belarus;by;Europe;Minsk;Europe/Minsk;Ruble
+Belgium;be;Europe;Brussels;Europe/Brussels;Euro
+Belize;bz;North America;Belmopan;America/Belize;Dollar
+Benin;bj;Africa;PortoNovo;Africa/Lagos;Franc
+Bermuda;bm;North America;Hamilton;Atlantic/Bermuda;Dollar
+Bhutan;bt;Asia;Thimphu;Asia/Thimphu;Ngultrum
+Bolivia;bo;South America;Sucre;America/La_Paz;Boliviano
+Bosnia and Herzegovina;ba;Europe;Sarajevo;Europe/Belgrade;Marka
+Botswana;bw;Africa;Gaborone;Africa/Maputo;Pula
+Brazil;br;South America;Brasilia;America/Sao_Paulo;Real
+British Indian Ocean Territory;io;Asia;Diego Garcia;Indian/Chagos;Dollar
+British Virgin Islands;vg;North America;Road Town;America/Port_of_Spain;Dollar
+Brunei;bn;Asia;Bandar Seri Begawan;Asia/Brunei;Dollar
+Bulgaria;bg;Europe;Sofia;Europe/Sofia;Lev
+Burkina Faso;bf;Africa;Ouagadougou;Africa/Abidjan;Franc
+Burundi;bi;Africa;Bujumbura;Africa/Maputo;Franc
+Cambodia;kh;Asia;Phnom Penh;Asia/Phnom_Penh;Riels
+Cameroon;cm;Africa;Yaounde;Africa/Lagos;Franc
+Canada;ca;North America;Ottawa;America/Toronto;Dollar
+Cape Verde;cv;Africa;Praia;Atlantic/Cape_Verde;Escudo
+Cayman Islands;ky;North America;George Town;America/Cayman;Dollar
+Central African Republic;cf;Africa;Bangui;Africa/Lagos;Franc
+Chad;td;Africa;N'Djamena;Africa/Ndjamena;Franc
+Chile;cl;South America;Santiago;America/Santiago;Peso Chileno
+China;cn;Asia;Beijing;Asia/Shanghai;Yuan Renminbi
+Christmas Island;cx;Asia;Flying Fish Cove;Indian/Christmas;Dollar
+Cocos Islands;cc;Asia;West Island;Indian/Cocos;Dollar
+Colombia;co;South America;Bogota;America/Bogota;Peso Colombiano
+Comoros;km;Africa;Moroni;Indian/Comoro;Franc
+Cook Islands;ck;Oceania;Avarua;Pacific/Rarotonga;Dollar
+Costa Rica;cr;North America;San Jose;America/Costa_Rica;Colon
+Croatia;hr;Europe;Zagreb;Europe/Belgrade;Kuna
+Cuba;cu;North America;Havana;America/Havana;Peso Cubano
+Curacao;cw;North America;Willemstad;America/Curacao;Guilder
+Cyprus;cy;Europe;Nicosia;Asia/Nicosia;Euro
+Czech Republic;cz;Europe;Prague;Europe/Prague;Koruna
+Democratic Republic of the Congo;cd;Africa;Kinshasa;Africa/Lagos;Franc
+Denmark;dk;Europe;Copenhagen;Europe/Copenhagen;Krone
+Djibouti;dj;Africa;Djibouti;Africa/Djibouti;Franc
+Dominica;dm;North America;Roseau;America/Port_of_Spain;Dollar
+Dominican Republic;do;North America;Santo Domingo;America/Santo_Domingo;Peso Dominicano
+East Timor;tl;Oceania;Dili;Asia/Dili;Dollar
+Ecuador;ec;South America;Quito;America/Guayaquil;Dollar
+Egypt;eg;Africa;Cairo;Africa/Cairo;Pound
+El Salvador;sv;North America;San Salvador;America/El_Salvador;Dollar
+Equatorial Guinea;gq;Africa;Malabo;Africa/Lagos;Franc
+Eritrea;er;Africa;Asmara;Africa/Asmara;Nakfa
+Estonia;ee;Europe;Tallinn;Europe/Tallinn;Euro
+Ethiopia;et;Africa;Addis Ababa;Africa/Addis_Ababa;Birr
+Falkland Islands;fk;South America;Stanley;Atlantic/Stanley;Pound
+Faroe Islands;fo;Europe;Torshavn;Atlantic/Faroe;Krone
+Fiji;fj;Oceania;Suva;Pacific/Fiji;Dollar
+Finland;fi;Europe;Helsinki;Europe/Helsinki;Euro
+France;fr;Europe;Paris;Europe/Paris;Euro
+French Polynesia;pf;Oceania;Papeete;Pacific/Tahiti;Franc
+Gabon;ga;Africa;Libreville;Africa/Lagos;Franc
+Gambia;gm;Africa;Banjul;Africa/Abidjan;Dalasi
+Georgia;ge;Asia;Tbilisi;Asia/Tbilisi;Lari
+Germany;de;Europe;Berlin;Europe/Berlin;Euro
+Ghana;gh;Africa;Accra;Africa/Accra;Cedi
+Gibraltar;gi;Europe;Gibraltar;Europe/Gibraltar;Pound
+Greece;gr;Europe;Athens;Europe/Athens;Euro
+Greenland;gl;North America;Nuuk;America/Godthab;Krone
+Grenada;gd;North America;St. George's;America/Port_of_Spain;Dollar
+Guam;gu;Oceania;Hagatna;Pacific/Guam;Dollar
+Guatemala;gt;North America;Guatemala City;America/Guatemala;Quetzal
+Guernsey;gg;Europe;St Peter Port;Europe/London;Pound
+Guinea;gn;Africa;Conakry;Africa/Abidjan;Franc
+GuineaBissau;gw;Africa;Bissau;Africa/Bissau;Franc
+Guyana;gy;South America;Georgetown;America/Guyana;Dollar
+Haiti;ht;North America;PortauPrince;America/PortauPrince;Gourde
+Honduras;hn;North America;Tegucigalpa;America/Tegucigalpa;Lempira
+Hong Kong;hk;Asia;Hong Kong;Asia/Hong_Kong;Dollar
+Hungary;hu;Europe;Budapest;Europe/Budapest;Forint
+Iceland;is;Europe;Reykjavik;Atlantic/Reykjavik;Krona
+India;in;Asia;New Delhi;Asia/Kolkata;Rupee
+Indonesia;id;Asia;Jakarta;Asia/Jakarta;Rupiah
+Iran;ir;Asia;Tehran;Asia/Tehran;Rial
+Iraq;iq;Asia;Baghdad;Asia/Baghdad;Dinar
+Ireland;ie;Europe;Dublin;Europe/Dublin;Euro
+Isle of Man;im;Europe;Douglas, Isle of Man;Europe/London;Pound
+Israel;il;Asia;Jerusalem;Asia/Jerusalem;Shekel
+Italy;it;Europe;Rome;Europe/Rome;Euro
+Ivory Coast;ci;Africa;Yamoussoukro;Africa/Abidjan;Franc
+Jamaica;jm;North America;Kingston;America/Jamaica;Dollar
+Japan;jp;Asia;Tokyo;Asia/Tokyo;Yen
+Jersey;je;Europe;Saint Helier;Europe/London;Pound
+Jordan;jo;Asia;Amman;Asia/Amman;Dinar
+Kazakhstan;kz;Asia;Astana;Asia/Almaty;Tenge
+Kenya;ke;Africa;Nairobi;Africa/Nairobi;Shilling
+Kiribati;ki;Oceania;Tarawa;Pacific/Tarawa;Dollar
+Kosovo;;Europe;Pristina;Europe/Belgrade;Euro
+Kuwait;kw;Asia;Kuwait City;Asia/Kuwait;Dinar
+Kyrgyzstan;kg;Asia;Bishkek;Asia/Bishkek;Som
+Laos;la;Asia;Vientiane;Asia/Vientiane;Kip
+Latvia;lv;Europe;Riga;Europe/Riga;Euro
+Lebanon;lb;Asia;Beirut;Asia/Beirut;Pound
+Lesotho;ls;Africa;Maseru;Africa/Johannesburg;Loti
+Liberia;lr;Africa;Monrovia;Africa/Monrovia;Dollar
+Libya;ly;Africa;Tripolis;Africa/Tripoli;Dinar
+Liechtenstein;li;Europe;Vaduz;Europe/Zurich;Franc
+Lithuania;lt;Europe;Vilnius;Europe/Vilnius;Euro
+Luxembourg;lu;Europe;Luxembourg;Europe/Luxembourg;Euro
+Macau;mo;Asia;Macao;Asia/Macau;Pataca
+Macedonia;mk;Europe;Skopje;Europe/Belgrade;Denar
+Madagascar;mg;Africa;Antananarivo;Indian/Antananarivo;Ariary
+Malawi;mw;Africa;Lilongwe;Africa/Maputo;Kwacha
+Malaysia;my;Asia;Kuala Lumpur;Asia/Kuala_Lumpur;Ringgit
+Maldives;mv;Asia;Male;Indian/Maldives;Rufiyaa
+Mali;ml;Africa;Bamako;Africa/Abidjan;Franc
+Malta;mt;Europe;Valletta;Europe/Malta;Euro
+Marshall Islands;mh;Oceania;Majuro;Pacific/Majuro;Dollar
+Mauritania;mr;Africa;Nouakchott;Africa/Abidjan;Ouguiya
+Mauritius;mu;Africa;Port Louis;Indian/Mauritius;Rupee
+Mayotte;yt;Africa;Mamoudzou;Indian/Mayotte;Euro
+Mexico;mx;North America;Mexico City;America/Mexico_City;Peso
+Micronesia;fm;Oceania;Palikir;Pacific/Pohnpei;Dollar
+Moldova;md;Europe;Chisinau;Europe/Chisinau;Leu
+Monaco;mc;Europe;Monaco;Europe/Monaco;Euro
+Mongolia;mn;Asia;Ulan Bator;Asia/Ulaanbaatar;Tugrik
+Montenegro;me;Europe;Podgorica;Europe/Belgrade;Euro
+Montserrat;ms;North America;Plymouth;America/Port_of_Spain;Dollar
+Morocco;ma;Africa;Rabat;Africa/Casablanca;Dirham
+Mozambique;mz;Africa;Maputo;Africa/Maputo;Metical
+Myanmar;mm;Asia;Nay Pyi Taw;Asia/Rangoon;Kyat
+Namibia;na;Africa;Windhoek;Africa/Windhoek;Dollar
+Nauru;nr;Oceania;Yaren;Pacific/Nauru;Dollar
+Nepal;np;Asia;Kathmandu;Asia/Kathmandu;Rupee
+Netherlands;nl;Europe;Amsterdam;Europe/Amsterdam;Euro
+Netherlands Antilles;an;North America;Willemstad;America/Curacao;Guilder
+New Caledonia;nc;Oceania;Noumea;Pacific/Noumea;Franc
+New Zealand;nz;Oceania;Wellington;Pacific/Auckland;Dollar
+Nicaragua;ni;North America;Managua;America/Managua;Cordoba
+Niger;ne;Africa;Niamey;Africa/Lagos;Franc
+Nigeria;ng;Africa;Abuja;Africa/Lagos;Naira
+Niue;nu;Oceania;Alofi;Pacific/Niue;Dollar
+North Korea;kp;Asia;Pyongyang;Asia/Pyongyang;Won
+Northern Mariana Islands;mp;Oceania;Saipan;Pacific/Saipan;Dollar
+Norway;no;Europe;Oslo;Europe/Oslo;Krone
+Oman;om;Asia;Muscat;Asia/Muscat;Rial
+Pakistan;pk;Asia;Islamabad;Asia/Karachi;Rupee
+Palau;pw;Oceania;Melekeok;Pacific/Palau;Dollar
+Palestine;ps;Asia;East Jerusalem;Asia/Hebron;Shekel
+Panama;pa;North America;Panama City;America/Panama;Balboa
+Papua New Guinea;pg;Oceania;Port Moresby;Pacific/Port_Moresby;Kina
+Paraguay;py;South America;Asuncion;America/Asuncion;Guarani
+Peru;pe;South America;Lima;America/Lima;Sol
+Philippines;ph;Asia;Manila;Asia/Manila;Peso
+Pitcairn;pn;Oceania;Adamstown;Pacific/Pitcairn;Dollar
+Poland;pl;Europe;Warsaw;Europe/Warsaw;Zloty
+Portugal;pt;Europe;Lisbon;Europe/Lisbon;Euro
+Puerto Rico;pr;North America;San Juan;America/Puerto_Rico;Dollar
+Qatar;qa;Asia;Doha;Asia/Qatar;Rial
+Republic of the Congo;cg;Africa;Brazzaville;Africa/Lagos;Franc
+Reunion;re;Africa;SaintDenis;Indian/Reunion;Euro
+Romania;ro;Europe;Bucharest;Europe/Bucharest;Leu
+Russia;ru;Europe;Moscow;Europe/Moscow;Ruble
+Rwanda;rw;Africa;Kigali;Africa/Maputo;Franc
+Saint Barthelemy;gp;North America;Gustavia;America/Port_of_Spain;Euro
+Saint Helena;sh;Africa;Jamestown;Africa/Abidjan;Pound
+Saint Kitts and Nevis;kn;North America;Basseterre;America/Port_of_Spain;Dollar
+Saint Lucia;lc;North America;Castries;America/Port_of_Spain;Dollar
+Saint Martin;gp;North America;Marigot;America/Port_of_Spain;Euro
+Saint Pierre and Miquelon;pm;North America;SaintPierre;America/Miquelon;Euro
+Saint Vincent and the Grenadines;vc;North America;Kingstown;America/Port_of_Spain;Dollar
+Samoa;ws;Oceania;Apia;Pacific/Apia;Tala
+San Marino;sm;Europe;San Marino;Europe/Rome;Euro
+Sao Tome and Principe;st;Africa;Sao Tome;Africa/Abidjan;Dobra
+Saudi Arabia;sa;Asia;Riyadh;Asia/Riyadh;Rial
+Senegal;sn;Africa;Dakar;Africa/Abidjan;Franc
+Serbia;rs;Europe;Belgrade;Europe/Belgrade;Dinar
+Seychelles;sc;Africa;Victoria;Indian/Mahe;Rupee
+Sierra Leone;sl;Africa;Freetown;Africa/Abidjan;Leone
+Singapore;sg;Asia;Singapore;Asia/Singapore;Dollar
+Sint Maarten;sx;North America;Philipsburg;America/Curacao;Guilder
+Slovakia;sk;Europe;Bratislava;Europe/Prague;Euro
+Slovenia;si;Europe;Ljubljana;Europe/Belgrade;Euro
+Solomon Islands;sb;Oceania;Honiara;Pacific/Guadalcanal;Dollar
+Somalia;so;Africa;Mogadishu;Africa/Mogadishu;Shilling
+South Africa;za;Africa;Pretoria;Africa/Johannesburg;Rand
+South Korea;kr;Asia;Seoul;Asia/Seoul;Won
+South Sudan;ss;Africa;Juba;Africa/Khartoum;Pound
+Spain;es;Europe;Madrid;Europe/Madrid;Euro
+Sri Lanka;lk;Asia;Colombo;Asia/Colombo;Rupee
+Sudan;sd;Africa;Khartoum;Africa/Khartoum;Pound
+Suriname;sr;South America;Paramaribo;America/Paramaribo;Dollar
+Svalbard and Jan Mayen;sj;Europe;Longyearbyen;Europe/Oslo;Krone
+Swaziland;sz;Africa;Mbabane;Africa/Johannesburg;Lilangeni
+Sweden;se;Europe;Stockholm;Europe/Stockholm;Krona
+Switzerland;ch;Europe;Berne;Europe/Zurich;Franc
+Syria;sy;Asia;Damascus;Asia/Damascus;Pound
+Taiwan;tw;Asia;Taipei;Asia/Taipei;Dollar
+Tajikistan;tj;Asia;Dushanbe;Asia/Dushanbe;Somoni
+Tanzania;tz;Africa;Dodoma;Africa/Dar_es_Salaam;Shilling
+Thailand;th;Asia;Bangkok;Asia/Bangkok;Baht
+Togo;tg;Africa;Lome;Africa/Abidjan;Franc
+Tokelau;tk;Oceania;;Pacific/Fakaofo;Dollar
+Tonga;to;Oceania;Nuku'alofa;Pacific/Tongatapu;Pa'anga
+Trinidad and Tobago;tt;North America;Port of Spain;America/Port_of_Spain;Dollar
+Tunisia;tn;Africa;Tunis;Africa/Tunis;Dinar
+Turkey;tr;Asia;Ankara;Europe/Istanbul;Lira
+Turkmenistan;tm;Asia;Ashgabat;Asia/Ashgabat;Manat
+Turks and Caicos Islands;tc;North America;Cockburn Town;America/Grand_Turk;Dollar
+Tuvalu;tv;Oceania;Funafuti;Pacific/Funafuti;Dollar
+U.S. Virgin Islands;vi;North America;Charlotte Amalie;America/Port_of_Spain;Dollar
+Uganda;ug;Africa;Kampala;Africa/Kampala;Shilling
+Ukraine;ua;Europe;Kiev;Europe/Kiev;Hryvnia
+United Arab Emirates;ae;Asia;Abu Dhabi;Asia/Dubai;Dirham
+United Kingdom;uk;Europe;London;Europe/London;Pound
+United States;us;North America;Washington;America/New_York;Dollar
+Uruguay;uy;South America;Montevideo;America/Montevideo;Peso
+Uzbekistan;uz;Asia;Tashkent;Asia/Tashkent;Som
+Vanuatu;vu;Oceania;Port Vila;Pacific/Efate;Vatu
+Vatican;va;Europe;Vatican City;Europe/Rome;Euro
+Venezuela;ve;South America;Caracas;America/Caracas;Bolivar
+Vietnam;vn;Asia;Hanoi;Asia/Ho_Chi_Minh;Dong
+Wallis and Futuna;wf;Oceania;Mata Utu;Pacific/Wallis;Franc
+Western Sahara;eh;Africa;ElAaiun;Africa/El_Aaiun;Dirham
+Yemen;ye;Asia;Sanaa;Asia/Aden;Rial
+Zambia;zm;Africa;Lusaka;Africa/Maputo;Kwacha
+Zimbabwe;zw;Africa;Harare;Africa/Maputo;Dollar
