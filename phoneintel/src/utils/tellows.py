@@ -12,11 +12,15 @@ class TellowsScraper:
         self.score = None
         self.type_of_call = None
 
-    def fetch_data(self):
+    def fetch_data(self, url_:bool=True):
+
         url = self.base_url + urllib.parse.quote(self.phone_number)
-        print(f"{SUB_KEY_STYLE}    - Tellows URL: {VALUE_STYLE}{url}")
-        
+
+        if url_:
+            print(f"{SUB_KEY_STYLE}    - Tellows URL: {VALUE_STYLE}{url}")
+
         response = requests.get(url, timeout=5)
+
         response.raise_for_status()
         self.soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -38,6 +42,7 @@ class TellowsScraper:
             self.fetch_data()
             self.extract_score()
             self.extract_type_of_call()
+
             return {
                 'phone_number': self.phone_number,
                 'score': self.score,
@@ -53,3 +58,33 @@ class TellowsScraper:
     def set_phone_number(self, new_number):
         self.phone_number = new_number
 
+
+    def get_info_australia(self):
+        try:
+            self.fetch_data(url_=False)
+            result = self.extract_australian_country()
+            return result
+        except Exception as e:
+            return e
+
+    def extract_australian_country(self):
+
+        try:
+            country = str(self.soup.find('div', class_='col-lg-9').find('h1'))
+
+            
+
+            if 'from' in country:
+                country = country.split('from')[1]
+
+            if 'of' in country:
+                country = country.split('of')[1]
+            
+            if '</h1>' in country:
+                country = country.replace("</h1>", "")
+
+            return country.strip()
+            
+        except Exception as e:
+
+            return e
