@@ -22,11 +22,8 @@ class PhoneIntelMap:
             print(f"An error occurred: {e}")
         
     def __req_coordinates(self):
-        if not 'Unknown' in self.__state:
-            
-            self.__api = f"https://api.bigdatacloud.net/data/reverse-geocode-client?localityLanguage=en&locality={quote(self.__state)}&countryName={quote(self.__country)}"
-        else:
-            self.__load_coordinates_from_json()
+        
+        self.__load_coordinates_from_json()
             
             
     def __load_coordinates_from_json(self):
