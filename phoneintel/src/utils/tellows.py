@@ -83,8 +83,12 @@ class TellowsScraper:
             if '</h1>' in country:
                 country = country.replace("</h1>", "")
 
+            if country.strip().startswith('<h1>'):
+
+                country = 'Unknown'
+
             return country.strip()
             
         except Exception as e:
 
-            return e
+            return 'Unknown'
