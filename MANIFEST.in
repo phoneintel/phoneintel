@@ -5,6 +5,6 @@ include phoneintel/__init__.py
 include phoneintel/main.py
 include phoneintel/LICENSE.txt
 include phoneintel/README.md
-
+include phoneintel/DISCLAIMER.txt
 
 
