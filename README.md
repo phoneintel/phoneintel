@@ -31,6 +31,15 @@ With PhoneIntel, uncover essential details about phone numbers, including countr
 pip install phoneintel
 ```
 
+### For Kali Linux Users
+
+Remember Add the Directory to PATH:
+
+```bash
+export PATH=$PATH:/home/<username>/.local/bin
+```
+
+
 ### Getting Started
 
 #### Single Phone Number Lookup
