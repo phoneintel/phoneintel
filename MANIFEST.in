@@ -1,10 +1,11 @@
 include phoneintel/src/resources/dorks/dorks.json
 include phoneintel/src/resources/countries/countries.csv
+include phoneintel/src/resources/countries/countries_langs.json
+include phoneintel/src/resources/countries/country_coordinates.json
 include phoneintel/src/utils/*.py
 include phoneintel/__init__.py
 include phoneintel/main.py
 include phoneintel/LICENSE.txt
 include phoneintel/README.md
 include phoneintel/DISCLAIMER.txt
-
 
