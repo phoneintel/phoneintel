@@ -1,12 +1,28 @@
+#!/usr/bin/env python3
+##########################################
+#                                        #
+#      CREATED BY THE PHONEINTEL TEAM    #
+#                                        #
+##########################################
+#                                        #
+# ALL INFORMATION IS SOURCED EXCLUSIVELY #
+#      FROM OPEN SOURCE AND PUBLIC       #
+#               RESOURCES                #
+#                                        #
+#     THIS NOTICE MUST REMAIN INTACT     #
+#   FOR CODE REDISTRIBUTION UNDER THE    #
+#           APACHE 2.0 LICENSE           #
+#                                        #
+##########################################
+
 import requests
 import webbrowser
 import json
-from urllib.parse import quote
 from phoneintel.src.utils.const import separator, COUNTRY_COORDINATES_JSON
 
 class PhoneIntelMap:
     
-    def __init__(self, country: str, state: str = None) -> None:
+    def __init__(self, country: str, state: str = None, lat:str='', lon:str='' ) -> None:
         self.__country = country
         self.__state = state
         self.__api = None
@@ -14,13 +30,22 @@ class PhoneIntelMap:
         self.__lat = None
         self.coordinates_json_path = COUNTRY_COORDINATES_JSON 
         self.__req_coordinates()
-        try:
-            self.__make_req()
-            if self.__lon:
+        if lat == '' or lon == '':
+            try:
+                self.__make_req()
+                if self.__lon:
+                    self.open_map()
+            except Exception as e:
+                print(f"An error occurred: {e}")
+
+        else:
+            self.__lon = lon
+            self.__lat = lat
+            try:
                 self.open_map()
-        except Exception as e:
-            print(f"An error occurred: {e}")
-        
+            except Exception as e:
+                print(f"An error occurred: {e}")
+            
     def __req_coordinates(self):
         
         self.__load_coordinates_from_json()
