@@ -1,10 +1,25 @@
-import socket
+#!/usr/bin/env python3
+##########################################
+#                                        #
+#      CREATED BY THE PHONEINTEL TEAM    #
+#                                        #
+##########################################
+#                                        #
+# ALL INFORMATION IS SOURCED EXCLUSIVELY #
+#      FROM OPEN SOURCE AND PUBLIC       #
+#               RESOURCES                #
+#                                        #
+#     THIS NOTICE MUST REMAIN INTACT     #
+#   FOR CODE REDISTRIBUTION UNDER THE    #
+#           APACHE 2.0 LICENSE           #
+#                                        #
+##########################################
 
-def is_connected(host="8.8.8.8", port=53, timeout=3):
+import requests
 
+def is_connected(url='https://www.google.com', proxies=None, timeout=3):
     try:
-        socket.setdefaulttimeout(timeout)
-        socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect((host, port))
-        return True
-    except socket.error:
+        response = requests.get(url, proxies=proxies, timeout=timeout)
+        return response.status_code == 200
+    except requests.exceptions.RequestException:
         return False
