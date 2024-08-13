@@ -1,8 +1,25 @@
+#!/usr/bin/env python3
+##########################################
+#                                        #
+#      CREATED BY THE PHONEINTEL TEAM    #
+#                                        #
+##########################################
+#                                        #
+# ALL INFORMATION IS SOURCED EXCLUSIVELY #
+#      FROM OPEN SOURCE AND PUBLIC       #
+#               RESOURCES                #
+#                                        #
+#     THIS NOTICE MUST REMAIN INTACT     #
+#   FOR CODE REDISTRIBUTION UNDER THE    #
+#           APACHE 2.0 LICENSE           #
+#                                        #
+##########################################
+
 from setuptools import setup, find_packages
 
 setup(
     name='phoneintel',
-    version='1.0.9',
+    version='1.1.0',
     description='A tool for processing phone numbers with OSINT capabilities.',
     author='PhoneIntel',
     author_email='phoneintel@proton.me',
