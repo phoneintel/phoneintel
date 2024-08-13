@@ -1,3 +1,20 @@
+#!/usr/bin/env python3
+##########################################
+#                                        #
+#      CREATED BY THE PHONEINTEL TEAM    #
+#                                        #
+##########################################
+#                                        #
+# ALL INFORMATION IS SOURCED EXCLUSIVELY #
+#      FROM OPEN SOURCE AND PUBLIC       #
+#               RESOURCES                #
+#                                        #
+#     THIS NOTICE MUST REMAIN INTACT     #
+#   FOR CODE REDISTRIBUTION UNDER THE    #
+#           APACHE 2.0 LICENSE           #
+#                                        #
+##########################################
+
 import requests
 from bs4 import BeautifulSoup
 import urllib.parse
