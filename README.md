@@ -1,5 +1,6 @@
-
-![BANNER](/imgs/phoneintel.png)
+<p align="center">
+  <img src="/imgs/phoneintel.png" alt="Descripción de la imagen">
+</p>
 
 # PhoneIntel - Transforming Phone Number Intelligence
 
