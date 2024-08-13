@@ -3,3 +3,29 @@ It is designed to perform basic scans and provide initial insights into phone nu
 Always ensure you have proper authorization before using any tool for security assessments.
 Misuse of this tool for unauthorized or illegal activities is strictly prohibited.
 Use responsibly and within the bounds of applicable laws and regulations.
+
+Phoneintel IS BASED ON THE COLLECTION AND ANALYSIS OF DATA OBTAINED FROM
+OPEN AND PUBLIC SOURCES AVAILABLE ON THE INTERNET. PHONEINTEL DO NOT CLAIM
+OWNERSHIP OF THE COLLECTED INFORMATION AND NOT ASSUME ANY RESPONSIBILITY FOR
+ITS CONTENT OR ACCURANCY. ALL INFORMATION USED OR PRESENTED BY THIS TOOL IS 
+GATHERED FROM PUBLIC AND OPEN SOURCE AND IS AVAILABLE TO THE GENERAL PUBLIC
+
+IMPORTANT:
+
+    INFORMATION OWNERSHIP: The information obtained through Phoneintel IS NOT
+    OWNED BY THE DEVELOPER OR THE CONTRIBUTORS OF THE PROJECT. This information
+    belongs to the respective sources from which is COLLECTED
+
+    SOURCE ATTRIBUTION: In good faith, the original sites from which the PUBLIC
+    information was obtained are mentioned whenever possible. Users should verify
+    the accurancy and reliability of any information obtained by consulting the 
+    original sources before using it for any porpose
+
+    DATA VERIFICATION: Users are responsible for verifying the accurancy and reliability
+    of any information obtained through PhoneIntel BEFORE MAKING ANY DECISIONS BASED ON
+    SUCH INFORMATION
+
+
+BY USING PHONEINTEL THE USER ACKNOWLEDGES THAT THE DEVELOPER AND CONTRIBUTORS DO NOT ASSUME
+ANY RESPONSIBILITY FOR THE OWNERSHIP OR CONTENT OF THE COLLECTED INFORMATION, AND THAT ITS USE
+IS THE SOLE RESPONSIBILITY OF THE END USER.
