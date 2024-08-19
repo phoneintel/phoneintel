@@ -52,7 +52,7 @@ COUNTRY_COORDINATES_JSON = path.join(MAIN_PATH, "resources", "countries", "count
 COUNTRY_LANGS_JSON = path.join(MAIN_PATH, "resources", "countries", "countries_langs.json")
 USER_API_KEYS = path.join(MAIN_PATH, "resources", "user", "api_list.json")
 DISCLAIMER = path.join(MAIN_PATH_2, "DISCLAIMER.txt")
-IG_KEY = 'e6358aeede676184b9fe702b30f4fd35e71744605e39d2181a34cede076b3c33'
+
 def separator()->None:
     
     print(Fore.BLUE+"-------------------------------------------")
