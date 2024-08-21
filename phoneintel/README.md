@@ -229,7 +229,7 @@ We welcome contributions! To propose major changes, please open an issue first t
 
 ### License
 
-PhoneIntel is licensed under the Apache 2.0 License. For more details, see the [LICENSE](https://github.com/phoneintel/phoneintel/blob/main/LICENSE) file.
+PhoneIntel is licensed under the GPL-3.0 License. For more details, see the [LICENSE](https://github.com/phoneintel/phoneintel/blob/main/LICENSE) file.
 
 ---
 
