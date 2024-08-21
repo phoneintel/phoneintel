@@ -10,4 +10,5 @@ from .api_utils import check_api_list, api_cred_show
 from .spamcalls import SpamCallsNetScraper
 from .browser import PhoneIntelBrowser
 from .credits import print_credits, display_disclaimer
-    
+from .instagram import PhoneIntelInstagram
+from .c_qui import C_QuiScraper
