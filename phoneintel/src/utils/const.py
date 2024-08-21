@@ -77,7 +77,7 @@ def separator()->None:
 def banner()->None:
         print(BANNER)
         sleep(0.3)
-        print(Fore.RESET+"[!] VERSION 1.1.0\n")
+        print(Fore.RESET+"[!] VERSION 1.1.1\n")
         sleep(0.3)
         print("[!] GITHUB https://github.com/phoneintel/phoneintel\n")
         sleep(0.3)
