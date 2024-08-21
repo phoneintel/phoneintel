@@ -28,7 +28,6 @@
 #                                        #
 #     THIS NOTICE MUST REMAIN INTACT     #
 #   FOR CODE REDISTRIBUTION UNDER THE    #
-#           APACHE 2.0 LICENSE           #
 #           GPL-3.0 license              #
 #                                        #
 ##########################################
