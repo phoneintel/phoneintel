@@ -58,6 +58,8 @@ fetching information, searching, and generating dorks.
 
     {Fore.BLUE}[!] {Fore.GREEN}{Style.BRIGHT}tellows.com {Style.NORMAL}{Fore.CYAN}( https://tellows.com )
 
+    {Fore.BLUE}[!] {Fore.GREEN}{Style.BRIGHT}c-qui.fr {Style.NORMAL}{Fore.CYAN}( https://www.c-qui.fr )
+
 {Fore.YELLOW}[*] {Fore.CYAN}{Style.BRIGHT}PhoneIntel{Style.NORMAL} allow to use the API of Neutrino API:
 
     {Fore.BLUE}[!] {Fore.GREEN}{Style.BRIGHT}NEUTRINO API {Style.NORMAL}{Fore.CYAN}( https://www.neutrinoapi.com )
