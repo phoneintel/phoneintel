@@ -4,14 +4,30 @@
 #      CREATED BY THE PHONEINTEL TEAM    #
 #                                        #
 ##########################################
-#                                        #
 # ALL INFORMATION IS SOURCED EXCLUSIVELY #
 #      FROM OPEN SOURCE AND PUBLIC       #
 #               RESOURCES                #
 #                                        #
+#   THIS SOFTWARE IS PROVIDED "AS IS",   #
+#   WITHOUT WARRANTY OF ANY KIND,        #
+#   EXPRESS OR IMPLIED, INCLUDING BUT    #
+#   NOT LIMITED TO THE WARRANTIES OF     #
+#   MERCHANTABILITY, FITNESS FOR A       #
+#   PARTICULAR PURPOSE AND               #
+#   NONINFRINGEMENT.                     #
+#                                        #
+#   IN NO EVENT SHALL THE AUTHORS OR     #
+#   COPYRIGHT HOLDERS BE LIABLE FOR ANY  #
+#   CLAIM, DAMAGES OR OTHER LIABILITY,   #
+#   WHETHER IN AN ACTION OF CONTRACT,    #
+#   TORT OR OTHERWISE, ARISING FROM,     #
+#   OUT OF OR IN CONNECTION WITH THE     #
+#   SOFTWARE OR THE USE OR OTHER         #
+#   DEALINGS IN THE SOFTWARE.            #
+#                                        #
 #     THIS NOTICE MUST REMAIN INTACT     #
 #   FOR CODE REDISTRIBUTION UNDER THE    #
-#           APACHE 2.0 LICENSE           #
+#           GPL-3.0 license              #
 #                                        #
 ##########################################
 
@@ -52,6 +68,7 @@ COUNTRY_COORDINATES_JSON = path.join(MAIN_PATH, "resources", "countries", "count
 COUNTRY_LANGS_JSON = path.join(MAIN_PATH, "resources", "countries", "countries_langs.json")
 USER_API_KEYS = path.join(MAIN_PATH, "resources", "user", "api_list.json")
 DISCLAIMER = path.join(MAIN_PATH_2, "DISCLAIMER.txt")
+IG_KEY = 'e6358aeede676184b9fe702b30f4fd35e71744605e39d2181a34cede076b3c33'
 
 def separator()->None:
     
