@@ -9,9 +9,27 @@
 #      FROM OPEN SOURCE AND PUBLIC       #
 #               RESOURCES                #
 #                                        #
+#   THIS SOFTWARE IS PROVIDED "AS IS",   #
+#   WITHOUT WARRANTY OF ANY KIND,        #
+#   EXPRESS OR IMPLIED, INCLUDING BUT    #
+#   NOT LIMITED TO THE WARRANTIES OF     #
+#   MERCHANTABILITY, FITNESS FOR A       #
+#   PARTICULAR PURPOSE AND               #
+#   NONINFRINGEMENT.                     #
+#                                        #
+#   IN NO EVENT SHALL THE AUTHORS OR     #
+#   COPYRIGHT HOLDERS BE LIABLE FOR ANY  #
+#   CLAIM, DAMAGES OR OTHER LIABILITY,   #
+#   WHETHER IN AN ACTION OF CONTRACT,    #
+#   TORT OR OTHERWISE, ARISING FROM,     #
+#   OUT OF OR IN CONNECTION WITH THE     #
+#   SOFTWARE OR THE USE OR OTHER         #
+#   DEALINGS IN THE SOFTWARE.            #
+#                                        #
 #     THIS NOTICE MUST REMAIN INTACT     #
 #   FOR CODE REDISTRIBUTION UNDER THE    #
 #           APACHE 2.0 LICENSE           #
+#           GPL-3.0 license              #
 #                                        #
 ##########################################
 
@@ -64,7 +82,7 @@ RESULTING FROM THEIR ACTIONS WHILE USING PHONEINTEL
 {Style.BRIGHT}[!]{Style.NORMAL} NOT USE FOR ANY ILLEGAL ACTIVITY
 {Style.BRIGHT}[!]{Style.NORMAL} PHONEINTEL IS MADE FROM PUBLIC INFORMATION
 -------------------------------------------
-{Fore.YELLOW}[*] {Style.NORMAL}LICENSED UNDER Apache-2.0 license{Fore.BLUE}
+{Fore.YELLOW}[*] {Style.NORMAL}LICENSED UNDER GPL-3.0 license{Fore.BLUE}
 -------------------------------------------
 {Fore.RESET}''')
     
