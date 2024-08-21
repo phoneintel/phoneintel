@@ -81,7 +81,7 @@ def banner()->None:
         sleep(0.3)
         print("[!] GITHUB https://github.com/phoneintel/phoneintel\n")
         sleep(0.3)
-        print("[!] LICENSED UNDER Apache-2.0 license")
+        print("[!] LICENSED UNDER GPL-3.0 license")
         sleep(0.3)
         
 def dorks_banner()->None:
