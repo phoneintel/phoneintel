@@ -28,7 +28,6 @@
 #                                        #
 #     THIS NOTICE MUST REMAIN INTACT     #
 #   FOR CODE REDISTRIBUTION UNDER THE    #
-#           APACHE 2.0 LICENSE           #
 #           GPL-3.0 license              #
 #                                        #
 ##########################################
@@ -43,6 +42,8 @@ from phoneintel.src.utils.internet import is_connected
 from phoneintel.src.utils.tellows import TellowsScraper
 from phoneintel.src.utils.neutrino import NeutrinoAPI, NeutrinoMap
 from phoneintel.src.utils.spamcalls import SpamCallsNetScraper
+from phoneintel.src.utils.instagram import PhoneIntelInstagram
+from phoneintel.src.utils.c_qui import C_QuiScraper
 import requests
 from urllib.parse import quote
 
@@ -147,6 +148,14 @@ class PhoneIntel:
             print(f"{KEY_STYLE}[-] COUNTRY: {VALUE_STYLE}{self.country}")
             print(f"{KEY_STYLE}[-] AREA/STATE: {VALUE_STYLE}{self.area}")
             print(f"{KEY_STYLE}[-] CARRIER: {VALUE_STYLE}{self.carrier_name}")
+            try:
+                init_instagram = PhoneIntelInstagram(f"{self.country_code}{self.national_number}").get()
+                if init_instagram:
+                    print(f"{KEY_STYLE}[-] INSTAGRAM ACCOUNT REGISTERED: {VALUE_STYLE}YES")
+                else:
+                    print(f"{KEY_STYLE}[-] INSTAGRAM ACCOUNT REGISTERED: {ERROR_STYLE}NO")
+            except:
+                pass
             self.__print_country_details()
             
         else:
@@ -317,6 +326,40 @@ class PhoneIntel:
 
                         pass
                     
+
+                    
+                    if str(self.country_code) == "33":
+
+                        try:
+                            separator()
+                            print(f"{SUB_KEY_STYLE}[-]{Fore.BLUE} c-qui.fr DETAILS:")
+                            if str(self.national_number).startswith("0"):
+                                number_c_qui = f"{self.national_number}"
+                            else:
+                                number_c_qui = f"0{self.national_number}"
+                            init_c_qui = C_QuiScraper(number_c_qui).get_info()
+                            
+                            if init_c_qui['carrier'] != None:
+
+                                print(f"{SUB_KEY_STYLE}    - Carrier: {VALUE_STYLE}{init_c_qui['carrier']}")
+
+                            else:
+
+                                print(f"{SUB_KEY_STYLE}    - Carrier: {ERROR_STYLE}{'Unknown'}")
+
+                            if init_c_qui['requests'] != None:
+
+                                print(f"{SUB_KEY_STYLE}    - Requests: {VALUE_STYLE}{init_c_qui['requests']}")
+
+                            else:
+
+                                print(f"{SUB_KEY_STYLE}    - Requests: {ERROR_STYLE}{'Unknown'}")
+
+                        except:
+
+                            pass
+
+
                     
                 else:
                     print(f"{Fore.RED}[ERROR] No country details found for {self.country}")
@@ -430,7 +473,14 @@ class PhoneIntel:
                     print(f"{KEY_STYLE}[-] NUMBER TYPE: {VALUE_STYLE}{self.number_type}")
 
                 
-                
+                try:
+                    init_instagram = PhoneIntelInstagram(f"{self.country_code}{self.national_number}").get()
+                    if init_instagram:
+                        print(f"{KEY_STYLE}[-] INSTAGRAM ACCOUNT REGISTERED: {VALUE_STYLE}YES")
+                    else:
+                        print(f"{KEY_STYLE}[-] INSTAGRAM ACCOUNT REGISTERED: {ERROR_STYLE}NO")
+                except:
+                    pass
                 try:
                     self.__print_country_details(api=True, api_name='neutrino')
                 except Exception as e:
