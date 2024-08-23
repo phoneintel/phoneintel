@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="/imgs/phoneintel.png" alt="Descripción de la imagen">
-</p>
 
 # PhoneIntel - Transforming Phone Number Intelligence
 
@@ -27,6 +24,7 @@ With PhoneIntel, uncover essential details about phone numbers, including countr
 - **Location Mapping**: Visualize phone number locations on OpenStreetMap with the `--map` option.
 - **Tellows Integration**: Access additional data from [Tellows](https://www.tellows.com), including URL, score, and call type.
 - **SpamCalls Integration**: Extract spam risk, last activity, and the latest report of phone numbers from [SpamCalls.net](https://spamcalls.net).
+- **c-qui.fr Integration**: Extract french carriers and number of number requests. [c-qui.fr](https://www.c-qui.fr).
 - **Neutrino API Integration**: Authenticate, search, and map phone number information using the [Neutrino API](https://www.neutrinoapi.com).
 
 ### Installation
@@ -225,6 +223,7 @@ PhoneIntel uses data from the following sources:
 - [Tellows](https://www.tellows.com): Provides phone number ratings, reports, and other related information.
 - [Neutrino API](https://www.neutrinoapi.com): Offers services for validating and analyzing phone numbers.
 - [SpamCalls.net](https://spamcalls.net): Provides spam risk assessment, last activity, and user reports for phone numbers.
+- [c-qui.fr](https://www.c-qui.fr): Provides french carriers and number of number requests.
 
 ### Contributing
 
@@ -232,7 +231,7 @@ We welcome contributions! To propose major changes, please open an issue first t
 
 ### License
 
-PhoneIntel is licensed under the Apache 2.0 License. For more details, see the [LICENSE](https://github.com/phoneintel/phoneintel/blob/main/LICENSE) file.
+PhoneIntel is licensed under the GPL-3.0 License. For more details, see the [LICENSE](https://github.com/phoneintel/phoneintel/blob/main/LICENSE) file.
 
 ---
 
