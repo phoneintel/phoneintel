@@ -11,7 +11,7 @@
 #                                        #
 #     THIS NOTICE MUST REMAIN INTACT     #
 #   FOR CODE REDISTRIBUTION UNDER THE    #
-#           APACHE 2.0 LICENSE           #
+#             GPL-3.0 License            #
 #                                        #
 ##########################################
 
@@ -23,7 +23,7 @@ setup(
     description='A tool for processing phone numbers with OSINT capabilities.',
     author='PhoneIntel',
     author_email='phoneintel@proton.me',
-    license='Apache License 2.0',
+    license='GPL-3.0',
     url='https://github.com/phoneintel/phoneintel',
     packages=find_packages(include=['phoneintel', 'phoneintel.src', 'phoneintel.src.utils']),
     include_package_data=True,
