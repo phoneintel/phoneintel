@@ -45,25 +45,7 @@ api_list_params = {
 def check_api_list()->bool:
     try:
         if path.exists(USER_API_KEYS):
-
-            with open(USER_API_KEYS, 'r', encoding='utf-8') as file:
-                file = load(file)
-            
-            if file == api_list_params:
-                
-                return True
-            else:
-                try:
-                    with open(USER_API_KEYS, 'w', encoding='utf-8') as file:
-                        dump(api_list_params, file, indent=4)
-                        
-                    return True
-                
-                except:
-                    print(f"{Fore.RED}[ERROR] Can't create api_list.json in {USER_API_KEYS}")
-                    return False
-                
-        
+            return True
         else:
 
             try:
