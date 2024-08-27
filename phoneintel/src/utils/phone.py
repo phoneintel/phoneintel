@@ -160,8 +160,7 @@ class PhoneIntel:
                     print(f"{KEY_STYLE}[-] INSTAGRAM ACCOUNT REGISTERED: {ERROR_STYLE}NO")
             except:
                 pass
-            
-            tdl = self.__get_country_details_from_csv(self.country)
+
             self.__print_country_details()
         else:
             print(f"{Fore.RED}[ERROR] Cannot display info, parsing failed.")
