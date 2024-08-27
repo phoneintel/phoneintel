@@ -39,8 +39,6 @@ api_list_params = {
 
     "neutrino_id" : "",
     "neutrino_key": "",
-    "caller_id_key": ""
-
 
 }
 
