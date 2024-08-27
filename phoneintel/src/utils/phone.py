@@ -44,6 +44,7 @@ from phoneintel.src.utils.neutrino import NeutrinoAPI, NeutrinoMap
 from phoneintel.src.utils.spamcalls import SpamCallsNetScraper
 from phoneintel.src.utils.instagram import PhoneIntelInstagram
 from phoneintel.src.utils.c_qui import C_QuiScraper
+from caller_id import CallerIDAPI
 import requests
 from urllib.parse import quote
 
@@ -159,8 +160,20 @@ class PhoneIntel:
                     print(f"{KEY_STYLE}[-] INSTAGRAM ACCOUNT REGISTERED: {ERROR_STYLE}NO")
             except:
                 pass
-            self.__print_country_details()
             
+            tdl = self.__get_country_details_from_csv(self.country)
+            try:
+                if is_connected:
+                    user_data = CallerIDAPI(self.national_number, str(tdl["Top Level Domain"]).upper()).run()
+                
+                    print(f"{KEY_STYLE}[-] POSSIBLE USER NAME: {VALUE_STYLE}{user_data["name"]}")
+                    print(f"{KEY_STYLE}[-] POSSIBLE USER INFO: {VALUE_STYLE}{user_data["info"]}")
+                    print(f"{KEY_STYLE}[-] POSSIBLE USER GENDER: {VALUE_STYLE}{user_data["gender"]}")
+                else:
+                    pass
+            except:
+                pass
+            self.__print_country_details()
         else:
             print(f"{Fore.RED}[ERROR] Cannot display info, parsing failed.")
     
@@ -512,3 +525,5 @@ class PhoneIntel:
         except:
             self.number_type = f"{ERROR_STYLE}Connection Error"
         
+        
+ss = PhoneIntel("+5492477338643")
