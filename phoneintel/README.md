@@ -26,7 +26,6 @@ With PhoneIntel, uncover essential details about phone numbers, including countr
 - **SpamCalls Integration**: Extract spam risk, last activity, and the latest report of phone numbers from [SpamCalls.net](https://spamcalls.net).
 - **c-qui.fr Integration**: Extract french carriers and number of number requests. [c-qui.fr](https://www.c-qui.fr).
 - **Neutrino API Integration**: Authenticate, search, and map phone number information using the [Neutrino API](https://www.neutrinoapi.com).
-- **RapidAPI API Integration**: Search, phonenumber username and possible info [caller-id](https://rapidapi.com/williamchew85/api/caller-id4).
 
 ### Installation
 
@@ -208,22 +207,11 @@ phoneintel --dorks "+34613814500" --type social_networks
 ```bash
 phoneintel --browser "+34613814500" --map
 ```
------------------
+
 ### Disclaimer
 
 PhoneIntel is intended for educational and research purposes only. It is designed to perform basic scans and provide initial insights into phone numbers. Always ensure you have proper authorization before using any tool for security assessments. Misuse of this tool for unauthorized or illegal activities is strictly prohibited. Use responsibly and within the bounds of applicable laws and regulations.
 
-A part of information provided by this software is sourced exclusively through [RapidAPI](https://rapidapi.com), a reputable API aggregator. While RapidAPI is trustworthy, we do not have knowledge of or control over the methods used by the individual API providers to obtain the data.
-
-**Important Notes:**
-- This software simply automates API requests and interactions.
-- We are **not responsible** for how the user utilizes this software, nor for any actions or consequences arising from its use.
-- The user assumes full responsibility for any actions taken based on the information retrieved through the APIs.
-
-This software is provided "as is", without any warranties of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. 
-
-In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
---------------
 ### Comprehensive Documentation
 
 Dive into the full capabilities of PhoneIntel through our detailed documentation: [PhoneIntel Documentation](https://phoneintel.github.io)
@@ -236,8 +224,7 @@ PhoneIntel uses data from the following sources:
 - [Neutrino API](https://www.neutrinoapi.com): Offers services for validating and analyzing phone numbers.
 - [SpamCalls.net](https://spamcalls.net): Provides spam risk assessment, last activity, and user reports for phone numbers.
 - [c-qui.fr](https://www.c-qui.fr): Provides french carriers and number of number requests.
-- [caller-id](https://rapidapi.com/williamchew85/api/caller-id4): Provides phonenumber username and possible info
-
+  
 ### Contributing
 
 We welcome contributions! To propose major changes, please open an issue first to discuss your ideas. Ensure all relevant tests are updated accordingly.
