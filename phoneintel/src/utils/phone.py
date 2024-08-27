@@ -162,17 +162,6 @@ class PhoneIntel:
                 pass
             
             tdl = self.__get_country_details_from_csv(self.country)
-            try:
-                if is_connected:
-                    user_data = CallerIDAPI(self.national_number, str(tdl["Top Level Domain"]).upper()).run()
-                
-                    print(f"{KEY_STYLE}[-] POSSIBLE USER NAME: {VALUE_STYLE}{user_data["name"]}")
-                    print(f"{KEY_STYLE}[-] POSSIBLE USER INFO: {VALUE_STYLE}{user_data["info"]}")
-                    print(f"{KEY_STYLE}[-] POSSIBLE USER GENDER: {VALUE_STYLE}{user_data["gender"]}")
-                else:
-                    pass
-            except:
-                pass
             self.__print_country_details()
         else:
             print(f"{Fore.RED}[ERROR] Cannot display info, parsing failed.")
