@@ -59,6 +59,7 @@ class PhoneIntel:
         self.area = None
         self.__lat = None
         self.__lon = None
+        self.number_type = None
         self.country = None
         self.carrier_name = None
         self.api_name = api_name.strip().lower()
@@ -148,6 +149,8 @@ class PhoneIntel:
             print(f"{KEY_STYLE}[-] COUNTRY: {VALUE_STYLE}{self.country}")
             print(f"{KEY_STYLE}[-] AREA/STATE: {VALUE_STYLE}{self.area}")
             print(f"{KEY_STYLE}[-] CARRIER: {VALUE_STYLE}{self.carrier_name}")
+            self.get_number_type()
+            print(f"{KEY_STYLE}[-] NUMBER TYPE: {self.number_type.strip().capitalize()}")
             try:
                 init_instagram = PhoneIntelInstagram(f"{self.country_code}{self.national_number}").get()
                 if init_instagram:
@@ -382,8 +385,9 @@ class PhoneIntel:
         if not 'Unknown' in self.area:
             
             try:
-                self.__api = f"https://api.bigdatacloud.net/data/reverse-geocode-client?localityLanguage=en&locality={quote(self.area)}&countryName={quote(self.country)}"
+                self.__api = f"http://phone-number-api.com/json/?number={self.phone_number}"
                 self.__make_req()
+                
             except:
                 self.__load_coordinates_from_json()
         else:
@@ -408,21 +412,20 @@ class PhoneIntel:
             raise ValueError("Error decoding the JSON file")
     
     def __make_req(self):
-        if not self.__api and (self.__lat is None or self.__lon is None):
-            raise ValueError("API URL is not set and coordinates are not found in the JSON. Call req_coordinates() first.")
 
         if self.__api:
             try:
                 response = requests.get(self.__api, timeout=5)
                 response.raise_for_status()
             except:
-                pass
+                raise ValueError("API URL is not set and coordinates are not found in the JSON. Call req_coordinates() first.")
 
             if response.status_code == 200:
                 response_data = response.json()
-                if 'latitude' in response_data and 'longitude' in response_data:
-                    self.__lon = response_data['longitude']
-                    self.__lat = response_data['latitude']
+                print(response_data)
+                if 'lat' in response_data and 'lon' in response_data:
+                    self.__lon = str(response_data['lon'])
+                    self.__lat = str(response_data['lat'])
                     self.lon = self.__lon
                     self.lat = self.__lat
                 else:
@@ -470,7 +473,7 @@ class PhoneIntel:
 
                 if 'number-type' in data:
                     self.number_type = data['number-type'] if data['number-type'] != '' else f"{ERROR_STYLE}Unknown{Style.RESET_ALL}"
-                    print(f"{KEY_STYLE}[-] NUMBER TYPE: {VALUE_STYLE}{self.number_type}")
+                    print(f"{KEY_STYLE}[-] NUMBER TYPE: {VALUE_STYLE}{self.number_type.capitalize()}")
 
                 
                 try:
@@ -491,3 +494,22 @@ class PhoneIntel:
             except:
 
                 pass
+
+    def get_number_type(self):
+        try:
+            if is_connected():
+                url = f"http://phone-number-api.com/json/?number={self.phone_number}"
+                try:
+                    response = requests.get(url, timeout=5).json()
+                    if "numberType" in response:
+                        self.number_type = f"{VALUE_STYLE}{response["numberType"]}"
+                    else:
+                        self.number_type = f"{ERROR_STYLE}Unknown"
+                    
+                except:
+                        self.number_type = f"{ERROR_STYLE}Unknown"
+            else:
+                self.number_type = f"{ERROR_STYLE}No Internet"
+        except:
+            self.number_type = f"{ERROR_STYLE}Connection Error"
+        
