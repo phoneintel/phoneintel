@@ -422,7 +422,6 @@ class PhoneIntel:
 
             if response.status_code == 200:
                 response_data = response.json()
-                print(response_data)
                 if 'lat' in response_data and 'lon' in response_data:
                     self.__lon = str(response_data['lon'])
                     self.__lat = str(response_data['lat'])
