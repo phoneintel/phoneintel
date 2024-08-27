@@ -208,7 +208,7 @@ phoneintel --dorks "+34613814500" --type social_networks
 ```bash
 phoneintel --browser "+34613814500" --map
 ```
-
+-----------------
 ### Disclaimer
 
 PhoneIntel is intended for educational and research purposes only. It is designed to perform basic scans and provide initial insights into phone numbers. Always ensure you have proper authorization before using any tool for security assessments. Misuse of this tool for unauthorized or illegal activities is strictly prohibited. Use responsibly and within the bounds of applicable laws and regulations.
@@ -223,7 +223,7 @@ A part of information provided by this software is sourced exclusively through [
 This software is provided "as is", without any warranties of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. 
 
 In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
-
+--------------
 ### Comprehensive Documentation
 
 Dive into the full capabilities of PhoneIntel through our detailed documentation: [PhoneIntel Documentation](https://phoneintel.github.io)
