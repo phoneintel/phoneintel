@@ -44,7 +44,7 @@ from phoneintel.src.utils.neutrino import NeutrinoAPI, NeutrinoMap
 from phoneintel.src.utils.spamcalls import SpamCallsNetScraper
 from phoneintel.src.utils.instagram import PhoneIntelInstagram
 from phoneintel.src.utils.c_qui import C_QuiScraper
-from caller_id import CallerIDAPI
+
 import requests
 from urllib.parse import quote
 
