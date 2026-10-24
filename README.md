@@ -1,4 +1,3 @@
-
 # PhoneIntel - Transforming Phone Number Intelligence
 
 [![PyPI version](https://img.shields.io/pypi/v/phoneintel.svg)](https://pypi.org/project/phoneintel/)
@@ -22,9 +21,9 @@ With PhoneIntel, uncover essential details about phone numbers, including countr
 - **Batch Processing**: Effortlessly analyze multiple phone numbers from a text file.
 - **Google Dork Generation**: Create URL-encoded Google dorks tailored to specific categories.
 - **Location Mapping**: Visualize phone number locations on OpenStreetMap with the `--map` option.
+- **Google Maps Link**: Every lookup prints latitude, longitude, and a ready-to-open Google Maps link for the number's approximate location, with or without `--map`.
 - **Tellows Integration**: Access additional data from [Tellows](https://www.tellows.com), including URL, score, and call type.
 - **SpamCalls Integration**: Extract spam risk, last activity, and the latest report of phone numbers from [SpamCalls.net](https://spamcalls.net).
-- **c-qui.fr Integration**: Extract french carriers and number of number requests. [c-qui.fr](https://www.c-qui.fr).
 - **Neutrino API Integration**: Authenticate, search, and map phone number information using the [Neutrino API](https://www.neutrinoapi.com).
 
 ### Installation
@@ -68,6 +67,18 @@ View the location of a phone number on OpenStreetMap:
 ```bash
 phoneintel --info "+34613814500" --map
 ```
+
+#### Google Maps Link
+Every lookup prints the coordinates and a Google Maps link in the country details, no extra flag needed:
+```bash
+phoneintel --info +5492477338643
+```
+```
+    - Latitude: -34
+    - Longitude: -64
+    - Coordinates: https://www.google.com/maps/@-34,-64,8z
+```
+The location is approximate (area or country level, not the device's real position), so the link opens the map at a regional zoom level.
 
 #### Generate Google Dorks
 Create targeted Google dorks for various categories:
@@ -123,6 +134,8 @@ phoneintel <command> [options]
 #### Detailed Command Help
 
 ##### Info
+Prints the number's details, including a Google Maps link to its approximate location. `--map` additionally opens the location on OpenStreetMap.
+
 ```bash
 phoneintel --info <phone> [--map]
 ```
@@ -223,7 +236,6 @@ PhoneIntel uses data from the following sources:
 - [Tellows](https://www.tellows.com): Provides phone number ratings, reports, and other related information.
 - [Neutrino API](https://www.neutrinoapi.com): Offers services for validating and analyzing phone numbers.
 - [SpamCalls.net](https://spamcalls.net): Provides spam risk assessment, last activity, and user reports for phone numbers.
-- [c-qui.fr](https://www.c-qui.fr): Provides french carriers and number of number requests.
 
 ### Contributing
 
@@ -231,9 +243,8 @@ We welcome contributions! To propose major changes, please open an issue first t
 
 ### License
 
-PhoneIntel is licensed under the GPL-3.0 License. For more details, see the [LICENSE](https://github.com/phoneintel/phoneintel/blob/main/LICENSE) file.
+PhoneIntel is licensed under the Apache 2.0 License. For more details, see the [LICENSE](https://github.com/phoneintel/phoneintel/blob/main/LICENSE) file.
 
 ---
 
 Elevate your phone number intelligence capabilities with PhoneIntel – the tool that brings OSINT to your fingertips.
-
